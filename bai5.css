@@ -1,0 +1,460 @@
+body{
+	font-family: Arial;
+}
+#header{
+	width: 100%;
+	height: 100px;
+}
+#header_left{
+	width: 30%;
+	height: 100%;
+	font-weight: 500;
+	font-size: 20px;
+	float: left;
+}
+#header_right{
+	width: 70%;
+	height: 100%;
+	float: right;
+	text-align: right;
+	font-weight: 460;
+}
+#header_right ul li{
+	list-style: none;
+	display: inline;
+	margin: 25px 15px 0 0;
+}
+#content1{
+	width: 80%;
+	height: 500px;
+	padding: 2% 10% 0 10%;
+	background-color: #f8f9fa;
+}
+#column1{
+	width: 32%;
+	float: left;
+	position: relative;
+}
+#column1_up{
+	border-radius: 5px;
+	background-size: 100%;
+	background-image: url(Image/anh_3.webp);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 200px;
+	margin: 15px 0 15px 0;
+	position: relative;
+}
+#column1_down{
+	border-radius: 5px;
+	background-size: 100%;
+	background-image: url(Image/anh_4.webp);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 200px;
+	position: relative;
+}
+#column2{
+	float: left;
+	width: 32%;
+	position: relative;
+}
+#dog_pic{
+	border-radius: 5px;
+	background-size: 100%;
+	background-image: url(Image/anh-6.webp);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 418px;
+	float: left;
+	margin: 15px 0 0 15px;
+	position: relative;
+}
+#column3{
+	width: 32%;
+	float: left;
+	margin: 15px 0 0 30px;
+	position: relative;
+}
+#column3_up{
+	border-radius: 5px;
+	background-size: 100%;
+	background-image: url(Image/anh_1.webp);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 200px;
+	float: left;
+	margin: 0 0 15px 0;
+	position: relative;
+}
+#column3_down{
+	border-radius: 5px;
+	background-size: 100%;
+	background-image: url(Image/anh_2.webp);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 200px;
+	float: left;
+	position: relative;
+}
+.theAI{
+	color: white;
+	position: absolute;
+	z-index: 3;
+	bottom: 40px;
+	left: 20px;
+}
+.theDate{
+	color: #949494;
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+}
+#travel_food{
+	position: absolute;
+	bottom: 120px;
+	left: 20px;
+}
+#red_travel_content{
+	width: 70px;
+	height: 20px;
+	background-color: #f23a2f;
+	border: 2px;
+	color: white;
+	font-size: 15px;
+	text-align: center;;
+	border-radius: 5px;
+	float: left;
+}
+#blue_food_content{
+	width: 60px;
+	height: 20px;
+	background-color: #3089fc;
+	border: 2px;
+	color: white;
+	font-size: 15px;
+	text-align: center;;
+	border-radius: 5px;
+	float: left;
+}
+#recent{
+    margin: 0 0 3% 10%;
+}
+#content2{
+	width: 80%;
+	margin: 0;
+	padding: 0 0 0 10%;
+}
+.row{
+	width: 100%;
+	clear: both;
+}
+.item1{
+	width: 32%;
+	float: left;
+}
+.black_politics{
+	width: 90px;
+	height: 20px;
+	background-color: #6c757c;
+	border: 2px;
+	color: white;
+	font-size: 15px;
+	text-align: center;;
+	border-radius: 5px;
+	margin: 15px 0 -10px 15px;
+}
+.title{
+	width: 100%;
+	font-weight: 600;
+	font-size: 21px;
+}
+.author{
+	color: #cbcbcb;
+}
+.description{
+	width: 100%;
+	color: #b3b3b3;
+}
+.read_more{
+	color: #65a7fd;
+}
+.item2{
+	width: 32%;
+	padding: 0 15px;
+	float: left;
+}
+.green_nature{
+	width: 90px;
+	height: 20px;
+	background-color: #8bc34a;
+	border: 2px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 15px 0 -10px 15px;
+}
+.item3{
+	width: 32%;
+	padding: 0 15px;
+	float: left;
+}
+.orange_travel{
+	width: 90px;
+	height: 20px;
+	background-color: #f89d14;
+	border: 2px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 15px 0 -10px 15px;
+}
+.clear{
+	clear: both;
+}
+.red_sports{
+	float: left;
+	width: 90px;
+	height: 20px;
+	background-color: #f23a2f;
+	border: 2px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 15px 10px -10px 15px;
+}
+.grey_tech{
+	float: left;
+	width: 90px;
+	height: 20px;
+	background-color: #6c757c;
+	border: 2px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 15px 0 -10px 15px;
+}
+.orange_lifestyle{
+	float: left;
+	width: 90px;
+	height: 20px;
+	background-color: #f89d14;
+	border: 2px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 15px 0 -10px 15px;
+}
+.label{
+	height: 20px;
+}
+.panigation {
+	width: 100%;
+	float: left;
+	margin: 40px 0 40px 0;
+	text-align: center;
+	clear: both;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.blue {
+	margin-right: 5px;
+	display: inline-block;
+	border-radius: 50%;
+	padding: 5px 10px;
+	border: 1px solid #3089fc;
+	float: left;
+	text-decoration: none;
+	color: #c8dffe;
+	text-align: center;
+	background-color: #3089fc;
+}
+.with_out_blue {
+	margin-right: 5px;
+	display: inline-block;
+	padding: 5px 10px;
+	float: left;
+	text-decoration: none;
+	color: #a9a9a9;
+	text-align: center;
+	background-color: white;
+}
+#content3{
+	width: 80%;
+	height: 700px;
+	padding: 2% 10% 0 10%;
+	background-color: #f8f9fa;
+	float: left;
+}
+#colum1_content3{
+	float: left;
+	height: 600px;
+	position: relative;
+}
+#row_up{
+	background-image: url(Image/anh_3.webp);
+	background-size: 100% 100%;
+	width: 50%;
+	height: 300px;
+	background-repeat: no-repeat;
+	margin: 0 0 30px 0;
+	position: relative;
+}
+.green_nature_content3{
+	width: 90px;
+	height: 20px;
+	background-color: #8bc34a;
+	border: 2px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 15px 0 0 15px;
+}
+#row_down_left{
+	float: left;
+	background-image: url(Image/anh_4.webp);
+	background-size: 100% 100%;
+	width: 23%;
+	height: 300px;
+	margin: 0 30px 0 0;
+	position: relative;
+}
+.blue_sport{
+	width: 90px;
+	height: 20px;
+	background-color: #3089fc;
+	border: 2px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 15px 0 0 15px;
+}
+#row_down_right{
+	float: left;
+	background-image: url(Image/anh_1.webp);
+	background-size: 100% 100%;
+	width: 25%;
+	height: 300px;
+	position: relative;
+}
+.orange_lifestyle_content3{
+	width: 90px;
+	height: 20px;
+	background-color: #f89d14;
+	border: 2px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 15px 0 0 15px;
+}
+#column2_content3{
+	float: left;
+	position: relative;
+	background-image: url(Image/anh_2.webp);
+	background-size: 100% 100%;
+	width: 47%;
+	height: 630px;
+	margin: -22% 0 0 30px;
+}
+.red_travel{
+	width: 90px;
+	height: 20px;
+	background-color: #f23a2f;
+	border: 2px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 15px 0 0 15px;
+}
+.theFintech{
+	color: #f9f9f9;
+	position: absolute;
+	bottom: 40px;
+	margin: 0 0 0 20px;
+}
+.theFeb{
+	color: #8c8582;
+	position: absolute;
+	bottom: 40px;
+	margin: 0 0 -10px 20px;
+}
+#subcribe{
+	float: left;
+	text-align: center;
+	margin: 40px 0 0 40%;
+}
+#subcribe span{
+	font-color:#424242;
+	font-size: 20px;
+	font-weight: 300;
+}
+#subcribe p{
+	color: #9b9b9b;
+}
+#email_dress{
+	float: right;
+	margin: 0 0 0 0;
+}
+#footer{
+	width: 100%;
+	height: 300px;
+	background-color: #333333;
+	position: relative;
+	display: inline-block;
+	margin: 50px 0 0 0;
+}
+#about{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+#about1{
+	display: inline-block;
+	width: 25%;
+	margin: 40px 0 0 20%;
+}
+.p1{
+	color: #9b9b9b;
+	font-weight: 600;
+}
+.p2{
+	color: #626262;
+}
+#about2{
+	width: 10%;
+	margin: 40px 0 0 0;
+}
+#about2 ul li{
+	color: #808080;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+#about3{
+	width: 10%;
+	margin: 40px 0 0 0;
+}
+#about ul li{
+	color: #808080;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+#about4{
+	width: 25%;
+	margin: 40px 0 0 70px;
+}
+#copyright{
+	text-align: center;
+}
+#copyright p{
+	color: #626262;
+}
